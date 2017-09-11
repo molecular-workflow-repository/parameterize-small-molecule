@@ -1,0 +1,17 @@
+name: parameterize_small_molecule
+authors:
+ - Aaron Virshup: Autodesk Research
+contributors:
+ - "@avirshup"
+description: Automatically parameterize a small molecule.
+methods: |
+  This workflow creates amber-style parameters for a small molecule. By default, GAFF2 atom types
+  are assigned with am1-bcc partial charges, but the workflow can be configured with other input
+  options.
+references:
+  - AmberTools: http://ambermd.org/#AmberTools
+definitionfile: parameterize.py
+keywords:
+  - forcefield
+  - small-molecule
+  - parameterization
